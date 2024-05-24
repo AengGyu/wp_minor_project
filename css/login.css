@@ -44,10 +44,10 @@ input {
   width: 200px;
 }
 
-input:valid{
+/* input:valid{
   border:1px solid green;
   border-radius:5px;
-}
+} */
 .submit {
   margin: 20px auto;
   padding: 10px 20px;
@@ -57,9 +57,9 @@ input:valid{
   background-color: #000;
   color: white;
 }
-.submit:valid{
+/* .submit:valid{
   border:0;
-}
+} */
 a:link,a:visited{
   color:#f00;
 }

@@ -9,7 +9,7 @@
 </head>
 
 <body>
-  <h1 class="heading">Music Recommendation</h1>
+  <h1 class="heading"><a href="login.php">Music Recommendation</a></h1>
   <div class="container">
     <p class="signup">Sign up</p>
     <form action="" method="post">
@@ -26,6 +26,8 @@
       <input type="text" name="user_nick" id="user_nick" placeholder="NickName" autocomplete='off' required>
       <br>
       <input type="submit" name="submit" value="Sign up" class="submit">
+      <br>
+      <button onclick="location.href='login.php'">Login Page</button>
     </form>
   </div>
   <?php
